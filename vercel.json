@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "routes": [
+    { "src": "/api/(.*)", "dest": "/api/webhook.js" }
+  ],
+  "env": {
+    "HF_API_URL"   : "@hf_api_url",
+    "HF_TOKEN"     : "@hf_token",
+    "WA_TOKEN"     : "@wa_token",
+    "WA_PHONE_ID"  : "@wa_phone_id",
+    "VERIFY_TOKEN" : "@verify_token"
+  }
+}
